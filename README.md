@@ -1,5 +1,7 @@
 # math-precision
 
+[![build status](https://secure.travis-ci.org/pvorb/node-clone.svg)](http://travis-ci.org/pvorb/node-clone)
+
 This node.js package gives you a cleaner way to round numbers using pecision
  
 e.g. To round 1.2347 with precision 2 you can call
