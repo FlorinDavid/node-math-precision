@@ -1,14 +1,14 @@
 # math-precision
 
-This node.js package gives you a cleaner way to round numbers with decimals
+This node.js package gives you a cleaner way to round numbers using pecision
  
 e.g. To round 1.2347 with precision 2 you can call
  
  `math.round(1.2347, 2) = 1.23`
 
-instead of using something like this
+instead of using something like
  
- `Math.round(1.2347 * 100) / 100   // = 1.23`   (this is done behind the function call `.round(number, precision)`)
+ `Math.round(1.2347 * 100) / 100   // = 1.23`   (this is done beneath the function call `.round(number, precision)`)
  
 
 > See other [examples](#examples) or run the [tests](#test) 
