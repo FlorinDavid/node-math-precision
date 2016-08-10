@@ -1,6 +1,6 @@
 # math-precision
 
-[![build status](https://secure.travis-ci.org/pvorb/node-clone.svg)](http://travis-ci.org/pvorb/node-clone)
+[![build status](https://travis-ci.org/FlorinDavid/node-math-precision.svg)](http://travis-ci.org/FlorinDavid/node-math-precision)
 
 This node.js package gives you a cleaner way to round numbers using pecision
  
