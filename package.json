@@ -1,17 +1,17 @@
 {
   "name": "math-precision",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Math.round, Math.ceil, Math.floor with precision parameter",
   "main": "index.js",
   "scripts": {
     "test": "mocha --reporter spec ./test.js"
   },
   "keywords": [
-    "Math",
     "round",
+    "precision",
     "ceil",
     "floor",
-    "precision"
+    "math"
   ],
   "author": "Florin David",
   "license": "MIT",
