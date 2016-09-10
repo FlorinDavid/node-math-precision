@@ -12,8 +12,7 @@ It has no dependencies and it works on any `node.js` version.
 It's a pity not to use it! :)
 
 All world wide web documentation about `decimal rounding` in *JavaScript*, 
-including [Mozilla Docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript
-/Reference/Global_Objects/Math/round#PHP-Like_rounding_Method) 
+including [Mozilla Docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/round#PHP-Like_rounding_Method) 
 lead us to this solution:
  
 **E.g.** To round 1.2347 with precision 3 you should call: 
