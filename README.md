@@ -48,7 +48,9 @@ var round = require('math-precision').round
 console.log(round(1.2347, 2))        // 1.23
 console.log(round(1.235, 2))         // 1.24
 console.log(round(1.2, 2))           // 1.2
-
+console.log(round(1.24569, 3))       // 1.246
+console.log(round(1234, -2))         // 1200
+console.log(round(12785.9, -3))      // 13000
 ```
 
 ### .ceil
@@ -58,6 +60,11 @@ var ceil = require('math-precision').ceil
 
 console.log(ceil(1.2347, 2))         // 1.24
 console.log(ceil(1.2, 2))            // 1.2
+console.log(ceil(1.2347, 2))         // 1.24
+console.log(ceil(1.2348, 3))         // 1.235
+console.log(ceil(1.2, 2))            // 1.2
+console.log(ceil(1234, -2))          // 1300
+console.log(ceil(123436.87, -3))     // 124000
 
 ```
 
@@ -67,7 +74,10 @@ console.log(ceil(1.2, 2))            // 1.2
 var floor = require('math-precision').floor
 
 console.log(floor(1.2361, 2))        // 1.23
+console.log(floor(1.2367, 3))        // 1.236
 console.log(floor(1.8, 2))           // 1.8
+console.log(floor(1876, -2))         // 1800
+console.log(floor(187697.78, -3))    // 187000
 
 ```
 
