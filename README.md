@@ -24,7 +24,7 @@ everywhere, to export the function from your own utility library or to require
 this package ... you choose! :)
 
 Anyway there are several npm packages which does the same thing but I find this 
-the traightforward way to do it.
+the straightforward way to do it.
 
 > It also de deals with negative precision
 >  `.round(1234, -2) = 1200`
