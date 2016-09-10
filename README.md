@@ -12,14 +12,23 @@ including [Mozilla Docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript
 /Reference/Global_Objects/Math/round#PHP-Like_rounding_Method) 
 lead us to this solution:
  
-E.g. To round 1.2347 with precision 2 you should call
+E.g. To round 1.2347 with precision 3 you should call
 
-  `Math.round(1.2347 * 100) / 100   // = 1.23`
+  `Math.round(1.2347 * 1000) / 1000   // = 1.235`
   
 which is what this package actually does behind the scenes  if you call 
-`.round(1.2347, 2)` ([check the source code](https://github.com/FlorinDavid/node-math-precision/blob/master/index.js))
+`.round(1.2347, 3)` ([check the source code](https://github.com/FlorinDavid/node-math-precision/blob/master/index.js))
 
+The options are to write an ugly code, to create a function and copy/paste it 
+everywhere, to export the function from your own utility library or to require 
+this package ... you choose! :)
 
+Anyway there are several npm packages which does the same thing but I find this 
+the traightforward way to do it.
+
+> It also de deals with negative precision
+>  `.round(1234, -2) = 1200`
+>
 > See other [examples](#examples) or run the [tests](#test) 
 
 ## Install
