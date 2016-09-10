@@ -8,17 +8,16 @@ It has no dependencies and it works on any `node.js` version.
 It's a pity not to use it! :)
 
 All world wide web documentation about `decimal rounding` in *JavaScript*, 
-including [Mozilla Docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/round#PHP-Like_rounding_Method) 
-lead us to this solution: multiply the number with 10 at the power of the 
-desired precision (number of decimals), apply the `Math.` function and divide it 
-with 10 at the same power
+including [Mozilla Docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript
+/Reference/Global_Objects/Math/round#PHP-Like_rounding_Method) 
+lead us to this solution:
  
 E.g. To round 1.2347 with precision 2 you should call
 
   `Math.round(1.2347 * 100) / 100   // = 1.23`
   
-which is what this package actually does behind the scenes _(check the source 
-code)_
+which is what this package actually does behind the scenes  if you call 
+`.round(1.2347, 2)` ([check the source code](https://github.com/FlorinDavid/node-math-precision/blob/master/index.js))
 
 
 > See other [examples](#examples) or run the [tests](#test) 
