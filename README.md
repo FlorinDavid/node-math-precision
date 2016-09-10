@@ -1,7 +1,10 @@
-# math-precision [![build status](https://travis-ci.org/FlorinDavid/node-math-precision.svg)](http://travis-ci.org/FlorinDavid/node-math-precision)[![Dependencies](https://img.shields.io/david/FlorinDavid/node-math-precision.svg)](https://david-dm.org/FlorinDavid/node-math-precision)
+# math-precision
 
 > .round, .ceil, .floor with precision parameter. E.g. `.round(1.234, 2)` → 
 `1.23`
+
+[![build status](https://travis-ci.org/FlorinDavid/node-math-precision.svg)](http://travis-ci.org/FlorinDavid/node-math-precision)
+[![Dependencies](https://img.shields.io/david/FlorinDavid/node-math-precision.svg)](https://david-dm.org/FlorinDavid/node-math-precision)
 
 This `node.js` package gives you a cleaner way to round numbers using precision
 . It's simple, lightweight and it relies entirely on JS `Math` functions. 
