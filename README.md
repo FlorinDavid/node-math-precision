@@ -40,7 +40,7 @@ $ npm install math-precision
 
 ## Examples  
 
-### round
+### .round
 
 ```js
 var round = require('math-precision').round
@@ -51,7 +51,7 @@ console.log(round(1.2, 2))           // 1.2
 
 ```
 
-### ceil
+### .ceil
 
 ```js
 var ceil = require('math-precision').ceil
@@ -61,7 +61,7 @@ console.log(ceil(1.2, 2))            // 1.2
 
 ```
 
-### floor
+### .floor
 
 ```js
 var floor = require('math-precision').floor
