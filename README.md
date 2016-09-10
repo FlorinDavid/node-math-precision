@@ -51,6 +51,10 @@ console.log(round(1.2, 2))           // 1.2
 console.log(round(1.24569, 3))       // 1.246
 console.log(round(1234, -2))         // 1200
 console.log(round(12785.9, -3))      // 13000
+console.log(round(1.2347))           // 1
+console.log(round(1.2347, NaN))      // 1
+console.log(round(undefined, 2))     // NaN
+console.log(round(NaN, 2))           // NaN
 ```
 
 ### .ceil
@@ -60,12 +64,13 @@ var ceil = require('math-precision').ceil
 
 console.log(ceil(1.2347, 2))         // 1.24
 console.log(ceil(1.2, 2))            // 1.2
-console.log(ceil(1.2347, 2))         // 1.24
-console.log(ceil(1.2348, 3))         // 1.235
-console.log(ceil(1.2, 2))            // 1.2
+console.log(ceil(1.2341, 3))         // 1.235
 console.log(ceil(1234, -2))          // 1300
 console.log(ceil(123436.87, -3))     // 124000
-
+console.log(ceil(1.2347))            // 2
+console.log(ceil(1.2347, NaN))       // 2
+console.log(ceil(undefined, 2))      // NaN
+console.log(ceil(NaN, 2))            // NaN
 ```
 
 ### .floor
@@ -78,7 +83,10 @@ console.log(floor(1.2367, 3))        // 1.236
 console.log(floor(1.8, 2))           // 1.8
 console.log(floor(1876, -2))         // 1800
 console.log(floor(187697.78, -3))    // 187000
-
+console.log(floor(1.2361))           // 1
+console.log(floor(1.2361, NaN))      // 1
+console.log(floor(undefined, 2))     // NaN
+console.log(floor(NaN, 2))           // NaN
 ```
 
 ### using math object
@@ -89,7 +97,6 @@ var math = require('math-precision')
 console.log(math.round(1.2358, 2))   // 1.24
 console.log(math.ceil(1.2358, 2))    // 1.24
 console.log(math.floor(1.2358, 2))   // 1.23
-
 ```
 
 ## Test
