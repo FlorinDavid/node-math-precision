@@ -1,6 +1,6 @@
 {
   "name": "math-precision",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": ".round, .ceil, .floor with precision parameter: .round(1.234, 2) → 1.23",
   "main": "index.js",
   "scripts": {
