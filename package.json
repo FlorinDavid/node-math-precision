@@ -9,9 +9,13 @@
   "keywords": [
     "round",
     "precision",
+    "decimals",
+    "number",
+    "numbers",
     "ceil",
     "floor",
-    "math"
+    "math",
+    "Math.round"
   ],
   "author": "Florin David",
   "license": "MIT",
