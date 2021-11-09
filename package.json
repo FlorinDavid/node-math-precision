@@ -3,6 +3,7 @@
   "version": "1.0.4",
   "description": ".round, .ceil, .floor with precision parameter: .round(1.234, 2) → 1.23",
   "main": "index.js",
+  "types": "index.d.ts",
   "scripts": {
     "test": "mocha --reporter spec ./test.js"
   },
